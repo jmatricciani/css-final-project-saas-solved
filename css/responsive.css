@@ -1,0 +1,310 @@
+/* TABLET VIEW */
+
+@media (max-width: 1023px) {
+  /* HEADER */
+
+  .header-nav-list > .nav-link {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  /* HERO */
+
+  .hero {
+    flex-direction: column;
+    height: 650px;
+    background-size: 100% 517px;
+    background-repeat: no-repeat;
+  }
+
+  .hero-left {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .hero-right {
+    margin: 0 80px;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-text > p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .wing {
+    width: 64px;
+  }
+
+  .bullet {
+    width: 175px;
+  }
+
+  /* PRICING */
+
+  .plan {
+    width: 100%;
+  }
+
+  .plan-price {
+    text-align: center;
+  }
+
+  .plan-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-footer > p {
+    text-align: center;
+  }
+
+  .plans-feature-list {
+    flex-direction: column;
+    padding: 0 44px;
+  }
+
+  .pricing-feature-text {
+    width: 295px;
+  }
+
+  /* HIRE US */
+
+  .hire-us {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .hire-left {
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 30px 20px 30px;
+  }
+
+  .hire-person > p {
+    width: fit-content;
+  }
+
+  .hire-right {
+    width: 100%;
+    padding: 30px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    gap: 50px;
+  }
+
+  .site-nav-menu {
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    width: 330px;
+  }
+
+  /* HERO */
+
+  .hero {
+    padding: 40px 16px 0px 16px;
+    height: 600px;
+  }
+
+  .hero-left {
+    gap: 30px;
+    padding-bottom: 60px;
+    gap: 10px;
+  }
+
+  .hero-right {
+    margin: 0;
+  }
+
+  .hero-text > h1 {
+    font-size: 26px;
+    line-height: 31.47px;
+  }
+
+  .hero-text > p {
+    line-height: 17px;
+  }
+
+  #google-icon {
+    top: 0;
+    left: 0;
+  }
+
+  #google-ads-icon {
+    top: 209px;
+    left: 106px;
+  }
+
+  #asana-icon {
+    top: 0;
+    left: 248px;
+  }
+
+  #atlassian-icon {
+    top: 0;
+    left: 114px;
+  }
+
+  #calendar-icon {
+    top: 219px;
+    left: 239px;
+  }
+
+  #weave-icon {
+    top: 99px;
+    left: 184px;
+  }
+
+  #paypal-icon {
+    top: 99px;
+    left: 0;
+  }
+
+  /* WHY FRONT */
+
+  .why-front {
+    height: fit-content;
+    padding-bottom: 60px;
+  }
+
+  .wing {
+    display: none;
+  }
+
+  .bullets-list {
+    flex-direction: column;
+    padding: 0 34px;
+    gap: 17px;
+    width: 100%;
+  }
+
+  .bullet-top {
+    width: fit-content;
+  }
+
+  .bullet {
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+  }
+
+  .bullet-text {
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  /* PRICING */
+
+  .pricing {
+    padding-bottom: 60px;
+  }
+
+  .plans-feature-list {
+    padding: 0 16px;
+    align-items: center;
+  }
+
+  .plan {
+    padding: 40px;
+    width: 330px;
+  }
+
+  .pricing-row {
+    flex-direction: column;
+  }
+
+  .plan-features {
+    width: 100%;
+  }
+
+  .item-content {
+    padding-left: 0;
+  }
+
+  /* HIRE US */
+
+  .hire-us {
+    padding: 0;
+  }
+
+  .hire-left {
+    flex-direction: column;
+    padding: 40px 16px 20px 16px;
+    gap: 60px;
+  }
+
+  .hire-title-title,
+  .hire-title-text,
+  .hire-phrase,
+  .hire-left-top,
+  .hire-left-bottom,
+  .hire-person > p {
+    width: auto;
+    text-align: center;
+  }
+
+  .hire-left-bottom {
+    align-items: center;
+  }
+
+  .form-group-name,
+  .form-group-dropdown {
+    flex-direction: column;;
+  }
+
+  .hire-form {
+    gap: 20px;
+  }
+
+  input[type="checkbox"] {
+    width: 30%;
+    margin-bottom: 90px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+  }
+
+  .company-info {
+    align-items: center;
+  }
+
+  .site-nav {
+    flex-direction: column;
+  }
+
+  footer a {
+    font-size: 18px;
+  }
+}

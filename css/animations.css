@@ -1,0 +1,146 @@
+@media (min-width: 1024px) {
+  /* HOVER EFFECTS */
+  .nav-link:hover,
+  .footer-nav-item:hover,
+  .plan,
+  .btn-link {
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+  }
+
+  .nav-link:hover,
+  .footer-nav-item:hover {
+    color: var(--link-color);
+    border-color: var(--link-color);
+  }
+
+  .plan:hover {
+    box-shadow: 0px 10px 20px 0px var(--shadow-color);
+  }
+
+  .btn-link:hover {
+    background-color: var(--white);
+    color: var(--link-color);
+  }
+
+  /* ICON EFFECTS */
+
+  #google-icon {
+    animation-name: google-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes google-icon {
+    from {
+      left: 464px;
+      opacity: 0;
+    }
+    to {
+      left: 64px;
+      opacity: 1;
+    }
+  }
+
+  #google-ads-icon {
+    animation-name: google-ads-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes google-ads-icon {
+    from {
+      left: 555px;
+      opacity: 0;
+    }
+    to {
+      left: 155px;
+      opacity: 1;
+    }
+  }
+
+  #asana-icon {
+    animation-name: asana-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes asana-icon {
+    from {
+      left: 780px;
+      opacity: 0;
+    }
+    to {
+      left: 380px;
+      opacity: 1;
+    }
+  }
+
+  #atlassian-icon {
+    animation-name: atlassian-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes atlassian-icon {
+    from {
+      top: 410px;
+      opacity: 0;
+    }
+    to {
+      top: 10px;
+      opacity: 1;
+    }
+  }
+  
+  #calendar-icon {
+    animation-name: calendar-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes calendar-icon {
+    from {
+      top: 710px;
+      opacity: 0;
+    }
+    to {
+      top: 310px;
+      opacity: 1;
+    }
+  }
+  
+  #weave-icon {
+    animation-name: weave-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes weave-icon {
+    from {
+      top: 572px;
+      opacity: 0;
+    }
+    to {
+      top: 172px;
+      opacity: 1;
+    }
+  }
+
+  #paypal-icon {
+    animation-name: paypal-icon;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes paypal-icon {
+    from {
+      top: 572px;
+      opacity: 0;
+    }
+    to {
+      top: 172px;
+      opacity: 1;
+    }
+  }
+}
